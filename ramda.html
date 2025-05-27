@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>RamdaJS Layout</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #e0f0f0;
+    }
+
+    .container {
+      width: 1280px;
+      margin: 0 auto;
+      background-color: #fff;
+      padding: 20px;
+    }
+
+    header {
+      text-align: center;
+      padding: 20px 0;
+    }
+
+    header a.logo {
+      font-size: 32px;
+      font-weight: bold;
+      color: #000;
+      text-decoration: none;
+    }
+
+    nav {
+      text-align: center;
+      padding: 10px 0;
+    }
+
+    nav a {
+      display: inline-block;
+      margin: 0 20px;
+      text-decoration: none;
+      color: #007acc;
+      font-weight: bold;
+    }
+
+    .main {
+      text-align: center;
+      padding: 40px 0;
+    }
+
+    .main img {
+      width: 600px;
+      height: auto;
+      display: block;
+      margin: 0 auto;
+      border: 5px solid #00aaaa;
+    }
+
+    footer {
+      padding: 20px 0;
+      text-align: right;
+      font-size: 14px;
+      color: #666;
+    }
+
+    .horizontal-menu {
+      display: inline-block;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <a href="#" class="logo">Ramda.js</a>
+    </header>
+
+    <nav>
+      <div class="horizontal-menu">
+        <a href="#">Docs</a>
+        <a href="#">Try Ramda</a>
+        <a href="#">GitHub</a>
+        <a href="#">Get Started</a>
+      </div>
+    </nav>
+
+    <div class="main">
+      <img src="example.gif" alt="Example Image" />
+    </div>
+
+    <footer>
+      <span class="horizontal-menu">&copy; 2025 RamdaJS</span>
+    </footer>
+  </div>
+</body>
+</html>
